@@ -1,0 +1,1 @@
+The FullOutput files have all of the output for delta and the baseline, so that their confidence intervals can be calculated. The rest of the files are the results of the sum of 100 runs of the program in nanoseconds, so the average is just the number with two fewer digits at the end.

@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC -std=c99 -lrt -msse3 -mavx -lpthread -O3 -ftree-vectorize -ftree-vectorizer-verbose=1   -shared -Wl,-soname,libgaussian_kernel.so -o libgaussian_kernel.so CMakeFiles/gaussian_kernel.dir/gaussian_kernel.c.o 

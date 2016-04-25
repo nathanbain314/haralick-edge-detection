@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home1/03726/nbain/har/edges/src/gaussian_kernel.c
+math.h
+-
+stdlib.h
+-
+stdio.h
+-
+

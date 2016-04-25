@@ -1,0 +1,13 @@
+First run compile.sh
+It works on stampede machines, but if you want it to work on ut cs machines you need to identify a directory.
+Just copy one of files to ../src/test_haralick and run compile.sh in that directory
+
+CMakeLists.txt does not have machine optimizations. Some files require the CMakeLists.txt in files directory to use CMakeListsOpt.txt, renamed as CMakeLists.txt
+
+delta.c is a change in the algorithm
+vector.c is my attempt at vectorization
+optimizedbest.c is the further optimized program
+threadOpt.c is the first attempt at using threads
+threadAffinity.c sets threads to cores
+
+Just about the only changes in each file are near the end, in the main loop.

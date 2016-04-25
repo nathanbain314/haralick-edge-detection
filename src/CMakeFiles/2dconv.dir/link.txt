@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC -std=c99 -lrt -msse3 -mavx -lpthread -O3 -ftree-vectorize -ftree-vectorizer-verbose=1   -shared -Wl,-soname,lib2dconv.so -o lib2dconv.so CMakeFiles/2dconv.dir/2dconvolution.c.o 
